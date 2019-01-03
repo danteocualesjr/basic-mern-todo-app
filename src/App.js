@@ -4,9 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <h1>A MERN To-Do App</h1>
-      </div>
+      <Router>
+        <div className="container">
+          <h1>A MERN To-Do App</h1>
+        </div>
+      </Router>
     );
   }
 }
