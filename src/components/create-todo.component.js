@@ -12,6 +12,12 @@ class CreateTodo extends Component {
         }
     }
 
+    onChangeTodoDescription(e) {
+        this.setState({
+            todo_description: e.target.value
+        });
+    }
+
     render() {
         return (
             <div>
