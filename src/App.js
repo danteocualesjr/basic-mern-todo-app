@@ -19,6 +19,13 @@ class App extends Component {
               <img src={logo} width="30" height="30" alt="www.lambdaschool.com" />
             </a>
             <Link to="/" className="navbar-brand">MERN-Stack Todo App</Link>
+            <div className="collapse navbar-collapse">
+              <ul className="navbar-nav mr-auto">
+                <li className="navbar-item">
+                  <Link to="/" className="nav-link">Todos</Link>
+                </li>
+              </ul>
+            </div>
           <h1>A MERN To-Do App</h1>
         </div>
         <Route path="/" exact component={TodoList} />
