@@ -24,6 +24,12 @@ class CreateTodo extends Component {
         });
     }
 
+    onChangeTodoPriority(e) {
+        this.setState({
+            todo_priority: e.target.value
+        });
+    }
+
     render() {
         return (
             <div>
