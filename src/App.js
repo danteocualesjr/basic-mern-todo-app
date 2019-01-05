@@ -8,6 +8,9 @@ class App extends Component {
       <Router>
         <div className="container">
           <h1>A MERN To-Do App</h1>
+          <Route path="/" exact component={TodoList} />
+          <Route path="/edit/:id" component={EditTodo} />
+          <Route path="/create" component={CreateTodo} />
         </div>
       </Router>
     );
