@@ -24,13 +24,17 @@ class App extends Component {
                 <li className="navbar-item">
                   <Link to="/" className="nav-link">Todos</Link>
                 </li>
+                <li className="navbar-item">
+                  <Link to="/create" className="nav-link">Create Todo</Link>
+                </li>
               </ul>
             </div>
-          <h1>A MERN To-Do App</h1>
+          </nav>
+          <br />
+          <Route path="/" exact component={TodoList} />
+          <Route path="/edit/:id" component={EditTodo} />
+          <Route path="/create" component={CreateTodo} />
         </div>
-        <Route path="/" exact component={TodoList} />
-        <Route path="/edit/:id" component={EditTodo} />
-        <Route path="/create" component={CreateTodo} />
       </Router>
     );
   }
