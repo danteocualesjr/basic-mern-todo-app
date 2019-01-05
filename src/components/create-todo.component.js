@@ -18,6 +18,12 @@ class CreateTodo extends Component {
         });
     }
 
+    onChangeTodoResponsible(e) {
+        this.setState({
+            todo_responsible: e.target.value
+        });
+    }
+
     render() {
         return (
             <div>
