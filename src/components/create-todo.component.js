@@ -51,7 +51,9 @@ class CreateTodo extends Component {
             <div style={{marginTop: 10}}>
                 <h3>Create New Todo</h3>
                 <form onSubmit={this.onSubmit}>
-                
+                    <div className="form-group">
+                        <label>Description: </label>
+                    </div>
                 </form>
                 <p>CreateTodo</p>
             </div>
