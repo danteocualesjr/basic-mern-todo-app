@@ -48,7 +48,11 @@ class CreateTodo extends Component {
 
     render() {
         return (
-            <div>
+            <div style={{marginTop: 10}}>
+                <h3>Create New Todo</h3>
+                <form onSubmit={this.onSubmit}>
+                
+                </form>
                 <p>CreateTodo</p>
             </div>
         )
