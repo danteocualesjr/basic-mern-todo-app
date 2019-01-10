@@ -46,8 +46,6 @@ class CreateTodo extends Component {
         })
     }
 
-    //  Add more methods here.
-
     render() {
         return (
             <div style={{marginTop: 10}}>
