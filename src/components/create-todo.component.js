@@ -68,6 +68,20 @@ class CreateTodo extends Component {
                             value={this.state.todo_responsible}
                             onChange={this.onChangeTodoResponsible}
                         />
+                    </div>
+                    <div className="form-group">
+                        <div className="form-check form-check-inline">
+                            <input 
+                                className="form-check-input"
+                                type="radio"
+                                name="priorityOptions"
+                                id="priorityLow"
+                                value="Low"
+                                checked={this.state.todo_priority==='Low'}
+                                onChange={this.onChangeTodoPriority}
+                            />
+                            <label className="form-check-label">Low</label>
+                        </div>
                     </div>                    
                 </form>
                 <p>CreateTodo</p>
