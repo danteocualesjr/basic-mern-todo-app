@@ -116,7 +116,6 @@ class CreateTodo extends Component {
                         <input type="submit" value="Create Todo" classname="btn btn-primary" />
                     </div>                    
                 </form>
-                <p>CreateTodo</p>
             </div>
         )
     }
