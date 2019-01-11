@@ -60,6 +60,15 @@ class CreateTodo extends Component {
                             onChange={this.onChangeTodoDescription}
                         />
                     </div>
+                    <div className="form-group">
+                        <label>Responsible: </label>
+                        <input 
+                            type="text" 
+                            className="form-control" 
+                            value={this.state.todo_responsible}
+                            onChange={this.onChangeTodoResponsible}
+                        />
+                    </div>                    
                 </form>
                 <p>CreateTodo</p>
             </div>
