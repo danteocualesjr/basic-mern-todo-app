@@ -53,6 +53,12 @@ class CreateTodo extends Component {
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
                         <label>Description: </label>
+                        <input 
+                            type="text" 
+                            className="form-control" 
+                            value={this.state.todo_description}
+                            onChange={this.onChangeTodoDescription}
+                        />
                     </div>
                 </form>
                 <p>CreateTodo</p>
