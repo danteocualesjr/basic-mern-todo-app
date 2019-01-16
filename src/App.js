@@ -7,7 +7,7 @@ import CreateTodo from "./components/create-todo.component";
 import EditTodo from "./components/edit-todo.component";
 import TodoList from "./components/todo-list.component";
 
-import logo from "./logo.png";
+import logo from "./logo.svg";
 
 class App extends Component {
   render() {
